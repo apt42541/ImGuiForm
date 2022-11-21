@@ -62,7 +62,7 @@ void tool() {
 	ImGui::BeginChild( "Child Row 0 Col 0", ImVec2{ -FLT_MIN, childHeight }, true );
 	ImGui::TextUnformatted( "Menus" );
 	ImGui::Button( "Button" );
-	ImGui::Checkbox( "test23", &init );
+	ImGui::Checkbox( "test234", &init );
 	ImGui::EndChild();
 	ImGui::End();
 }
